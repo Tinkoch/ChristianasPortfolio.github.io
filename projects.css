@@ -1,0 +1,128 @@
+.header {
+    background-image: url('yellownav.jpeg');
+    background-size: cover;
+    /* This ensures the background image covers the entire header */
+    background-position: center;
+    /* Centers the background image */
+    height: 175px;
+    /* Adjust the height of your header as needed */
+    border-style: double;
+    border-width: 10px;
+    border-color: rgb(104, 115, 135);
+
+}
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h6 {
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    font-size: 50px;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    justify-content: space-evenly;
+    display: flex;
+    margin: 65px;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 0;
+    /* Adjust vertical padding to center align text */
+    color: #000;
+    border: 5px double;
+    padding: 10px;
+    margin-top: 35px;
+    background-color: #f4f4a3;
+    font-family: cursive;
+    font-size: 25px;
+
+}
+
+
+
+body {
+    background-image: url(Mountainpeaks.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+main {
+    padding-top: 50px;
+}
+
+
+.homepicture {
+    border: 15px double;
+    margin-right: 50px;
+    margin-bottom: 5%;
+
+
+
+}
+
+.enlarged-text1 {
+    font-size: 40px;
+
+}
+
+.enlarged-text2 {
+    font-size: 30px;
+}
+
+.AboutMe {
+    border: 5px double;
+    font-size: 18px;
+    margin: 50px;
+    padding: 30px 30px 30px 30px;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: fantasy;
+    background-color: rgb(12, 51, 72, .7);
+    color: azure;
+    box-shadow: 15px 15px 15px 15px rgb(8, 8, 8);
+
+
+}
+
+.maincontent {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    border: double;
+    border-width: 10px;
+    border-color: rgb(12, 51, 72);
+    background-color: rgba(255, 218, 139, 0.736);
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+
+}
+
+.linkedin-icon {
+    color: rgb(12, 51, 72);
+    /* LinkedIn brand color */
+    font-size: 40px;
+    /* Adjust the size of the icon */
+    margin-right: 10px;
+    /* Add margin to the right for spacing */
+}
