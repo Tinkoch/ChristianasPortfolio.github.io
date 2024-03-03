@@ -1,0 +1,48 @@
+header {
+    background-color: rgb(16, 31, 18);
+}
+
+.navbar {
+    background-color: goldenrod;
+    height: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+nav a:hover {
+
+    color: blanchedalmond;
+}
+
+a {
+    color: black;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, black, rgb(11, 161, 221));
+    height: 1500px;
+}
+
+.wrapper {
+    min-height: 55%;
+
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+
+    .footerpix {
+        width: 80%;
+    }
