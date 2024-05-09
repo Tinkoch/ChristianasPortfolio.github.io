@@ -1,0 +1,102 @@
+header {
+    background-color: rgb(16, 31, 18);
+}
+
+.navbar {
+    background-color: goldenrod;
+    height: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+nav a:hover {
+
+    color: blanchedalmond;
+}
+
+a {
+    color: black;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, black, rgb(11, 161, 221));
+    height: 1500px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.commentbox {
+    margin: 600px;
+    border: solid 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    /* Adjust the height property to make the textarea bigger */
+    height: 500px;
+    /* You can change this value to suit your needs */
+    resize: vertical;
+    /* Allow vertical resizing */
+}
